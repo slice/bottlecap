@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+lifesaver = {git = "https://github.com/slice/lifesaver.git"}
+"discord.py" = {git = "https://github.com/Rapptz/discord.py", ref = "rewrite"}
+dataclasses = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"

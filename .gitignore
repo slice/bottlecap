@@ -1,0 +1,9 @@
+# bot stuff
+/*.json
+config.yml
+
+# python
+*.pyc
+__pycache__
+
+/.idea
